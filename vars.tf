@@ -7,11 +7,7 @@ variable "name" {
 
 variable "aminull" {
   description = "am i null"
-  default = null
-  type = object({
-    name    = string
-    address = string
-  })
+  type = string
 }
 
 variable "nodefault" {
